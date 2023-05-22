@@ -1,0 +1,35 @@
+GET http://localhost:3000/User HTTP/1.1
+
+###
+GET http://localhost:3000/User/6469927093db94ebbcb4162f HTTP/1.1
+
+###
+POST http://localhost:3000/User HTTP/1.1
+Content-Type: application/json
+
+{
+    "username": "usufmail",
+    "email": "usuf@gmail.com",
+    "password": 34567767,
+    "age": 45
+    
+}
+
+
+###
+PUT http://localhost:3000/User/646b395d0a2e6dc8e5a8b2d9 HTTP/1.1
+Content-Type: application/json
+
+{
+    "username": "usufmail",
+    "email": "usuf@gmail.com",
+    "age": 45,
+    "password": 34567767
+    
+    
+    
+}
+
+###
+DELETE http://localhost:3000/User/64698ff9501c1fe975a12f19 HTTP/1.1
+
