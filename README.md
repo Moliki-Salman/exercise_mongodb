@@ -1,1 +1,1 @@
-Practing app building with mongodb. 
+ A practice on mongodb. 
